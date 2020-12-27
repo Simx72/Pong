@@ -212,7 +212,7 @@ function setup() {
     pausaboton.size(size, r(10)).hide()
         .style('position', 'absolute')
         .style('left', ((windowWidth / 2) - (size / 2)) + 'px')
-        .style('top', ((windowWidth / 2) - (size / 2) + r(90)) + 'px')
+        .style('top', ((windowHeight / 2) - (size / 2) + r(90)) + 'px')
         .style('font-size', r(3) + 'pt')
         .style('cursor', 'pointer')
         .style('color', '#EEE')
