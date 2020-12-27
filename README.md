@@ -1,6 +1,8 @@
 # Pong
 
-Una version html del juego de pong
+Una version html5 del juego de pong
+
+Web: [https://simx72.github.io/Pong](https://simx72.github.io/Pong)
 
 > Fue hecho con [p5](https://p5js.org/)
 
