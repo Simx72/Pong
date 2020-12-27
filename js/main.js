@@ -158,11 +158,8 @@ function setup() {
     canvas.style('top', ((windowHeight / 2) - (size / 2)) + 'px')
         // console.log((windowWidth / 2) - (size / 2), (windowHeight / 2) - (size / 2))
 
-    try {
-        textFont(loadFont(location.href + 'assets/fonts/Audiowide-Regular.ttf'))
-    } catch (e) {
-        textFont(loadFont(location.href + '/assets/fonts/Audiowide-Regular.ttf'))
-    }
+    textFont(loadFont(location.href + 'assets/fonts/Audiowide-Regular.ttf'))
+    
     fill(255, 255, 255)
 
     punto.vel.x = -2;
